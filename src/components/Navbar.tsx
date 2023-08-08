@@ -54,7 +54,7 @@ export default function Navbar({ children }: { children: React.ReactNode }) {
         className="daisy-drawer-toggle"
         ref={checkboxRef}
       />
-      <div className="daisy-drawer-content flex flex-col lg:bg-[#0f1b2a]">
+      <div className="daisy-drawer-content flex flex-col bg-gradient-to-b from-[#0f1b2a] to-cyan-950 lg:bg-gradient-to-r">
         {/* Navbar */}
         <div className="w-full daisy-navbar lg:hidden border-b border-cyan-300">
           <div className="flex-none lg:hidden">
@@ -94,7 +94,7 @@ export default function Navbar({ children }: { children: React.ReactNode }) {
               <Image alt="Logo" src={Logo} />
             </Link>
           </div>
-          <ul className="daisy-menu flex-1 p-4 w-80 text-base justify-center">
+          <ul className="daisy-menu flex-1 p-4 text-base justify-center">
             {/* Sidebar content here */}
             <li>
               <Link
